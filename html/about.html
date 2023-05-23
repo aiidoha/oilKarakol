@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rolf</title>
+    <link rel="stylesheet" href="../css/main.css" />
+    <link rel="stylesheet" href="../css/shop.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+    <nav class="container navbar" id="mt-nav">
+      <div>
+        <img src="../images/rolfLogo.png" alt="logo" style="width: 40px" />
+      </div>
+
+      <ul>
+        <li>
+          <a style="text-decoration: none; color: black" href="../index.html"
+            >Главная</a
+          >
+        </li>
+        <li>
+          <a
+            style="text-decoration: none; color: black"
+            href="../html/shop.html"
+            >Магазин</a
+          >
+        </li>
+        <li>
+          <strong>О нас</strong>
+        </li>
+      </ul>
+      <ul>
+        <li class="nav_phone">
+          <img src="../images/navPhone.svg" alt="phone" />
+          <span
+            ><a
+              style="text-decoration: none; color: black"
+              href="http://wa.me//553233322"
+              >+996 (553) 23-33-22</a
+            ></span
+          >
+        </li>
+      </ul>
+      <button class="burger-menu" onclick="toggleMenu()">
+        <img src="../images/burgermenu.svg" alt="" />
+      </button>
+    </nav>
+    <nav class="menu">
+      <ul>
+        <li><strong>О нас</strong></li>
+        <li>
+          <a style="text-decoration: none; color: black" href="../index.html"
+            >Главная</a
+          >
+        </li>
+        <li>
+          <a
+            style="text-decoration: none; color: black"
+            href="../html/shop.html"
+            >Магазин</a
+          >
+        </li>
+      </ul>
+      <ul>
+        <li class="nav_phone">
+          <img src="../images/navPhone.svg" alt="phone" />
+          <span
+            ><a
+              style="text-decoration: none; color: black"
+              href="http://wa.me//553233322"
+              >+996 (553) 23-33-22</a
+            ></span
+          >
+        </li>
+      </ul>
+    </nav>
+
+    <!-- ! -->
+    <section id="about" class="container add-block">
+      <h2>О нас</h2>
+      <p>
+        Мы являемся ведущим поставщиком качественных масел и фильтров для
+        автомобилей в Караколе. Наша компания была основана в 1980 году группой
+        энтузиастов, которые разделяли общую страсть к автомобилям и желание
+        предложить автовладельцам продукты высочайшего качества.
+      </p>
+      <div id="aboutOne">
+        <img src="../images/photoAbout1.png" alt="" />
+
+        <p>
+          Мы понимаем, что масла и фильтры являются важными компонентами для
+          здоровья и долговечности вашего автомобиля. Поэтому мы сотрудничаем
+          только с надежными и проверенными производителями, чтобы предоставить
+          вам самые лучшие продукты на рынке.
+        </p>
+      </div>
+      <br />
+      <div id="aboutOne">
+        <p>
+          Наши продукты отличаются высокой эффективностью, надежностью и
+          отвечают самым строгим стандартам качества. Мы предлагаем широкий
+          ассортимент моторных масел, трансмиссионных масел, гидравлических
+          масел и фильтров различных типов, чтобы удовлетворить потребности как
+          легковых, так и коммерческих автомобилей.
+        </p>
+        <img src="../images/photoAbout2.png" alt="" />
+      </div>
+      <br />
+      <br />
+      <div id="aboutOne">
+        <img src="../images/about3.JPG" alt="" />
+        <p>
+          Мы гордимся тем, что наша компания является надежным партнером для
+          автосервисов, автомобилистов и всех, кто ценит качество и надежность.
+          Наша команда экспертов всегда готова помочь вам подобрать оптимальные
+          масла и фильтры для вашего автомобиля, а также предоставить
+          профессиональные консультации и рекомендации.
+        </p>
+        <br />
+      </div>
+      <br />
+    </section>
+    <div id="aboutLast">
+      <p style="width: 50%">
+        Магазин "Rolf" в Караколе - это не только место, где вы можете
+        приобрести высококачественные продукты, но и место, где вы можете
+        обратиться за дружелюбным и профессиональным обслуживанием. Мы стремимся
+        создать комфортную и уютную атмосферу для наших клиентов, чтобы вы могли
+        с уверенностью делать свой выбор.
+      </p>
+      <p style="width: 40%">
+        Благодарим вас за выбор магазина "Rolf"! Мы гордимся тем, что можем
+        стать вашим надежным партнером в поддержании здоровья и
+        производительности вашего автомобиля.
+      </p>
+      <br />
+    </div>
+
+    <script src="../js/main.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      function toggleMenu() {
+        var menu = document.querySelector(".menu");
+        menu.classList.toggle("open");
+      }
+    </script>
+  </body>
+</html>

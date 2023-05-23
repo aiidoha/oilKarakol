@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Scrip'ачи</title>
+    <!-- ! link style.css -->
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+
+  <body>
+    <header class="container">
+      <nav class="navbar">
+        <div>
+          <img src="./images/rolfLogo.png" alt="logo" style="width: 40px" />
+        </div>
+
+        <ul>
+          <li><strong>Главная</strong></li>
+          <li><a href="./html/shop.html">Магазин</a></li>
+          <li><a href="./html/about.html">О Нас</a></li>
+        </ul>
+        <ul>
+          <li class="nav_phone">
+            <img src="./images/navPhone.svg" alt="phone" />
+            <span
+              ><a
+                style="text-decoration: none; color: black"
+                href="http://wa.me//553233322"
+                >+996 (553) 23-33-22</a
+              ></span
+            >
+          </li>
+        </ul>
+        <button class="burger-menu" onclick="toggleMenu()">
+          <img src="./images/burgermenu.svg" alt="" />
+        </button>
+      </nav>
+      <nav class="menu">
+        <ul>
+          <li><strong>Главная</strong></li>
+          <li>
+            <a href="./html/shop.html">Магазин</a>
+          </li>
+          <li><a href="./html/about.html">О Нас</a></li>
+        </ul>
+        <ul>
+          <li class="nav_phone">
+            <img src="./images/navPhone.svg" alt="phone" />
+
+            <span
+              ><a
+                style="text-decoration: none; color: black"
+                href="http://wa.me//553233322"
+                >+996 (553) 23-33-22</a
+              ></span
+            >
+          </li>
+        </ul>
+      </nav>
+
+      <head>
+        <div class="head__left">
+          <h1>Магазин масел и фильтров "Rolf" в городе Каракол!</h1>
+
+          <div>
+            <img src="./images/headArrow.svg" alt="arrow" />
+            <button>
+              <a href="./html/shop.html" style="color: white"
+                >Открыть магазин</a
+              >
+            </button>
+          </div>
+        </div>
+        <div class="head__right">
+          <img src="./images/mainPhoto.jpg" alt="2" id="big-photo" />
+          <img src="./images/photo1.png" alt="3" id="little-photo" />
+        </div>
+      </head>
+    </header>
+
+    <!-- ! CDN main.js -->
+    <script>
+      function toggleMenu() {
+        var menu = document.querySelector(".menu");
+        menu.classList.toggle("open");
+      }
+    </script>
+  </body>
+</html>
